@@ -20,8 +20,7 @@ app.get('/user', (req, res) => {
 })
 
 app.post('/user', ({ body }, res) => {
-    if(body.name) user.name = body.name
-    if(body.age) user.age = body.age
+    Object.assign(user, body)
     res.json(user)
 })
 
