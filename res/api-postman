@@ -10,7 +10,7 @@
 		{
 			"name": "localhost:3000/user",
 			"request": {
-				"url": "localhost:3000/user",
+				"url": "localhost:3000/user/0",
 				"method": "GET",
 				"header": [],
 				"body": {},
@@ -21,7 +21,7 @@
 		{
 			"name": "localhost:3000/user copy",
 			"request": {
-				"url": "localhost:3000/user",
+				"url": "localhost:3000/user/0",
 				"method": "POST",
 				"header": [
 					{
@@ -32,7 +32,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"name\": \"abdullah\"\n}"
+					"raw": "{\n\t\"name\": \"mohammed\",\n\t\"age\": 30\n}"
 				},
 				"description": ""
 			},
