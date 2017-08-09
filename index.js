@@ -5,27 +5,24 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.json())
 
 
-let user = {
+let user = [{
     id: 1,
     name: 'Mohammed',
     age: 30
-}
+}]
 
 app.get('/', function (req, res) {
     res.json('Hello World!')
 })
 
-app.get('/user', (req, res) => {
-    res.json(user)
+app.get('/user/:id', ({ params: { id } }, res) => {
+    res.json(user[id])
 })
 
-app.post('/user', ({ body }, res) => {
-    Object.assign(user, body)
-    res.json(user)
+app.post('/user/:id', ({ params: { id }, body }, res) => {
+    Object.assign(user[id], body)
+    res.json(user[id])
 })
-
-
-
 
 app.listen(3000, function () {
     console.log('Example app listening on port 3000!')
