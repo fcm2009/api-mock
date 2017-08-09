@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "poc",
+		"_postman_id": "0580a248-d559-0f9d-e19a-962f2d7f0f3b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/user",
+			"request": {
+				"url": "localhost:3000/user",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user copy",
+			"request": {
+				"url": "localhost:3000/user",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"abdullah\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
