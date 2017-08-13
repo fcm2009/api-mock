@@ -11,7 +11,7 @@ app.use(morgan('tiny'))
 
 
 let user = [{
-    id: 1,
+    id: 0,
     name: 'Mohammed',
     age: 30
 }]
