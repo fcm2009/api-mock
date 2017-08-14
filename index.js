@@ -26,6 +26,7 @@ app.get('/user/:id', ({ params: { id } }, res) => {
 
 app.post('/user/:id', ({ params: { id }, body }, res) => {
     Object.assign(user[id], body)
+    console.log(user[id])
     res.json(user[id])
 })
 
