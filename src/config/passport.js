@@ -4,7 +4,7 @@ const user = require('../userDB')
 
 
 const tokenStrategy = new BearerStrategy((token, done) => {
-    return token == 'aaa' ? done(null, user[0]) : done(null, flase)
+    return token == 'aaa' ? done(null, user[0]) : done(null, false)
 })
 
 
