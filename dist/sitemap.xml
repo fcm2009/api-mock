@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>http://ec2-13-58-109-84.us-east-2.compute.amazonaws.com:3000</loc>
+    </url>
+	<url>
+        <loc>http://ec2-13-58-109-84.us-east-2.compute.amazonaws.com:3000/profile</loc>
+    </url>
+	<url>
+        <loc>http://ec2-13-58-109-84.us-east-2.compute.amazonaws.com:3000/login</loc>
+    </url>
+</urlset>
